@@ -1,0 +1,99 @@
+#home {
+    height: 100vh; 
+    min-height: 600px;
+    background-image: url('../img/background-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home header {
+    height: 10%;
+    background-color: rgba(35, 35, 142, .900);
+}
+
+#home section {
+    height: 90%;
+    background-color: rgba(35, 35, 142, .700);
+}
+
+#home header .flex-container {
+    height: 100%;
+    align-items: center;
+}
+
+#home header #logo {
+    width: 30%;
+}
+
+#home header #logo img {
+    width: 200px;
+}
+
+#home header nav {
+    width: 70%;
+}
+
+#home header nav #menu-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#home header nav #menu-ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+
+#home section .flex-container {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home section .flex-container h1, h2, h3 {
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home section .flex-container h2, h3 {
+    max-width: 600px;
+}
+
+#home section .flex-container h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#home section .flex-container h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+#home section .flex-container h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button-a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 0;
+    border-radius: 30px;
+    width: 200px;
+}
+
+.button-a:hover {
+    background-color: #cec2c2;
+}
